@@ -92,6 +92,7 @@ public class PlayerActivity extends AppCompatActivity implements MediaPlayer.OnC
             @Override
             public void onClick(View view) {
                 mediaPlayer.stop();
+                see change
                 mediaPlayer.release();
                 Intent backIntent = new Intent(PlayerActivity.this,MainActivity.class);
                 startActivity(backIntent);
