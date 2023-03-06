@@ -7,13 +7,14 @@
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/drawable/main_bg.xml" value="0.1435" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/drawable/repeat_off.xml" value="0.1435" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/drawable/repeat_on.xml" value="0.1435" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/drawable/shuffle_off.xml" value="0.124" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/drawable/shuffle_on.xml" value="0.1435" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/drawable/skip_next.xml" value="0.1435" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/drawable/skip_previous.xml" value="0.1435" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/drawable/tab_indicator.xml" value="0.1435" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/layout/activity_album_details.xml" value="0.1947463768115942" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/layout/activity_main.xml" value="0.18297101449275363" />
-        <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/layout/activity_player.xml" value="0.33" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/layout/activity_player.xml" value="0.25" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/layout/album_item.xml" value="0.1947463768115942" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/layout/fragment_album.xml" value="0.22916666666666666" />
         <entry key="..\:/Users/Mark/AndroidStudioProjects/MusicPalyer/app/src/main/res/layout/fragment_songs.xml" value="0.22916666666666666" />

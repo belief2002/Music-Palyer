@@ -92,7 +92,6 @@ public class PlayerActivity extends AppCompatActivity implements MediaPlayer.OnC
             @Override
             public void onClick(View view) {
                 mediaPlayer.stop();
-                see change
                 mediaPlayer.release();
                 Intent backIntent = new Intent(PlayerActivity.this,MainActivity.class);
                 startActivity(backIntent);
@@ -337,19 +336,13 @@ public class PlayerActivity extends AppCompatActivity implements MediaPlayer.OnC
             });
             mediaPlayer.setOnCompletionListener(this);
             playPauseBtn.setBackgroundResource(R.drawable.play);
-
+            mediaPlayer.start();
         }
 
     }
     @Override
     public void onCompletion(MediaPlayer mediaPlayer) {
         nextBtnClicked();
-        if (mediaPlayer!=null){
-            mediaPlayer = MediaPlayer.create(getApplicationContext(),uri);
-            mediaPlayer.start();
-           // mediaPlayer.setOnCompletionListener(this);
-        }
-
     }
 
     private int getRandom(int i) {
