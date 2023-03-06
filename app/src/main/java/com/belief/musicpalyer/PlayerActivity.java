@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.palette.graphics.Palette;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -26,6 +25,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -104,10 +104,10 @@ public class PlayerActivity extends AppCompatActivity implements MediaPlayer.OnC
             public void onClick(View view) {
                 if(shuffleBoolean){
                     shuffleBoolean = false;
-                    shuffleBtn.setBackgroundResource(R.drawable.shuffle_off);
+                    shuffleBtn.setImageResource(R.drawable.shuffle_off);
                 }else {
                     shuffleBoolean = true;
-                    shuffleBtn.setBackgroundResource(R.drawable.shuffle_on);
+                    shuffleBtn.setImageResource(R.drawable.shuffle_on);
                 }
             }
         });
@@ -116,10 +116,12 @@ public class PlayerActivity extends AppCompatActivity implements MediaPlayer.OnC
             public void onClick(View view) {
                 if(repeatBoolean){
                     repeatBoolean = false;
-                    repeatBtn.setBackgroundResource(R.drawable.repeat_off);
+                    repeatBtn.setImageResource(R.drawable.repeat_off);
+                    Toast.makeText(PlayerActivity.this, "repeat off", Toast.LENGTH_SHORT).show();
                 }else {
                     repeatBoolean = true;
-                    repeatBtn.setBackgroundResource(R.drawable.repeat_on);
+                    repeatBtn.setImageResource(R.drawable.repeat_24);
+                    Toast.makeText(PlayerActivity.this, "repeat on", Toast.LENGTH_SHORT).show();
                 }
             }
         });
